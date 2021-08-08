@@ -7,5 +7,6 @@ module.exports = {
   String: () => 'Hello',
   Author: () => ({
     name: casual.name
-  })
+  }),
+  Odd: () => 3
 };
