@@ -10,6 +10,17 @@ module.exports =  {
      return null;
    },
  },
+ Livre: {
+    __resolveType(book, context, info){
+      if(book.chapter){
+        return 'LivreA';
+      }
+      if(book.sentance){
+        return 'LivreB';
+      }
+      return null;
+    },
+  },
   Query: {
     experience1: () => books,
   },
