@@ -20,6 +20,8 @@
   "homepage": "https://github.com/JustalK/LABORATORY-APOLLO-V3#readme",
   "dependencies": {
     "apollo-server": "^3.1.2",
+    "casual": "^1.6.2",
+    "faker": "^5.5.3",
     "graphql": "^15.5.1"
   }
 }
